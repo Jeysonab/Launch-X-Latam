@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f3c5c5;
+	font-family: "Voltaire";
+}
+
+#secInicio,
+#secSabores,
+#secAdornos,
+#secPedidos {
+	scroll-margin-top: 142px;
+}
+.oculto {
+	width: 90%;
+	max-width: 1000px;
+	height: 140px;
+}
+
+.posicion {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wrapper {
+	width: 90%;
+	/* max-width: 2000px; */
+	margin: auto;
+	background: #f3c5c5;
+	color: #694e4e;
+}
+
+header {
+	width: 100%;
+	height: 142px;
+	position: fixed;
+	background: #c1a3a3;
+	z-index: 7;
+}
+
+header .logo2 img {
+	margin-top: 0px;
+	padding-bottom: 30px;
+	height: 80px;
+	transition: all 1s;
+}
+
+header nav {
+	margin: -22px auto 0;
+	position: relative;
+	width: 468px;
+	height: 50px;
+	background-color: #694e4e;
+	border-radius: 8px;
+}
+
+header nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #c1a3a3;
+	cursor: pointer;
+}
+
+header nav .animación {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all 0.5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 32.9%;
+}
+a:nth-child(2) {
+	width: 32.9%;
+}
+a:nth-child(3) {
+	width: 32.9%;
+}
+
+nav .inicio,
+a:nth-child(1):hover ~ .animación {
+	width: 34%;
+	left: 0;
+	background-color: #e4c1f9;
+}
+nav .pedidos,
+a:nth-child(2):hover ~ .animación {
+	width: 34%;
+	left: 154px;
+	background-color: #a9def9;
+}
+nav .inventario,
+a:nth-child(3):hover ~ .animación {
+	width: 35%;
+	left: 308px;
+	background-color: #d0f4de;
+}
+
+h2 {
+	display: flex;
+	font-size: 40px;
+	justify-content: center;
+	padding: 50px;
+	border-bottom: 2px solid #694e4e;
+}
+
+/* ============== TABLA DE PEDIDOS ============== */
+
+.tablaPedidos,
+.tablaInventario {
+	width: 100%;
+	margin: 20px auto;
+	border-spacing: 2px 1;
+}
+
+.tablaTitulos th {
+	background: #694e4e;
+	text-align: center;
+	padding: 5px 10px;
+	border: 1px solid #000;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.tablaPedidos td {
+	width: auto;
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid #000;
+	background: #fff;
+}
+
+details[open] {
+	padding: 2px;
+	width: 200px;
+}
+
+details[open] summary {
+	border-bottom: 1px solid #000;
+	/* margin-bottom: 2px; */
+}
+
+summary {
+	font-weight: bold;
+	width: 200px;
+}
+details[open] p {
+	text-align: left;
+	padding: 10px;
+}
+ul {
+	text-align: left;
+	list-style: none;
+	padding: 10px;
+}
+
+.tablaInventario th,
+.tablaInventario tfoot td {
+	background: #694e4e;
+	text-align: center;
+	padding: 5px 10px;
+	border: 1px solid #000;
+	color: #fff;
+	font-size: 16px;
+}
+
+.tablaInventario td {
+	width: auto;
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid #000;
+	background: #fff;
+}
+
+.tablaInventario .enExis {
+	background: green;
+	color: #fff;
+}
+
+.tablaInventario .pocasExis {
+	background: orange;
+	color: #fff;
+}
+
+.tablaInventario .AgotaExis {
+	background: red;
+	color: #fff;
+}
+
+.tablaInventario .buscar {
+	width: 300px;
+	height: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+	line-height: 1.5;
+	padding: 0 10px 0 10px;
+	font-family: "Voltaire";
+	font-size: 14px;
+	font-weight: 400;
+	color: #444;
+	box-shadow: 1px 1px 1px #999;
+	outline: none;
+}
+
+.tablaInventario .boton {
+	width: auto;
+	padding: 6px 30px;
+	border-radius: 4px;
+	color: #fff;
+	background: #c1a3a3;
+	border: 2px solid #f3c5c5;
+	font-size: 16px;
+	font-family: "Voltaire";
+}
+
+.tablaInventario .boton:hover {
+	width: auto;
+	padding: 6px 30px;
+	border-radius: 4px;
+	color: #fff;
+	background: #f3c5c5;
+	border: 2px solid #f3c5c5;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: "Voltaire";
+}
+
+/* =============== FOOTER =============== */
+
+footer {
+	width: 100%;
+	/* position: absolute; */
+	bottom: 0;
+	display: grid;
+	background: #c1a3a3;
+	grid-template-columns: 1fr 1.1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	gap: 20px;
+	color: #694e4e;
+	justify-content: space-around;
+}
+
+.logo3 img {
+	padding: 20px;
+	width: 200px;
+}
+
+.misContacto {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+	justify-items: stretch;
+	align-items: start;
+}
+
+.fSub {
+	grid-column: span 2;
+	justify-self: center;
+}
+
+.misContacto a {
+	line-height: 50px;
+	width: auto;
+	font-size: 15px;
+	text-decoration: none;
+	color: #694e4e;
+	cursor: pointer;
+}
+
+.misContacto a:hover {
+	color: #000;
+}
+.redesSociales {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
+	justify-items: stretch;
+	align-items: start;
+}
+
+.redesSociales img {
+	width: 40px;
+	margin: 5px;
+}
+.redesSociales img:hover {
+	width: 35px;
+	margin: 5px;
+}
+.copyright {
+	grid-column: span 3;
+	border-top: 1px solid black;
+	padding: 0 20px 0 20px;
+}

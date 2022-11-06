@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dulzura Espacial</title>
+		<link rel="shortcut icon" href="./assets/IconoLogo.ico" />
+		<link rel="stylesheet" href="styles_pastelero.css" />
+		<script
+			src="https://kit.fontawesome.com/41f0746332.js"
+			crossorigin="anonymous"></script>
+		<script src="./js/header.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="posicion">
+				<div class="logo2">
+					<img src="./assets/Imagen Logo2.svg" alt="Dulzura Espacial" />
+				</div>
+				<nav>
+					<a href="#secInicio" target="_self">Inicio</a>
+					<a href="#secPedidos" target="_self">Pedidos</a>
+					<a href="#secInventario" target="_self">Inventario</a>
+					<div class="animación"></div>
+				</nav>
+			</div>
+		</header>
+		<section class="oculto" id="secInicio"></section>
+
+		<section class="wrapper" id="secPedidos">
+			<h2>Pedidos en cola</h2>
+			<table class="tablaPedidos">
+				<thead class="tablaTitulos">
+					<tr>
+						<th>Pedido #</th>
+						<th>Fecha de entrega</th>
+						<th>Sabor</th>
+						<th>Adorno 1</th>
+						<th>Adorno 2</th>
+						<th>Adorno 3</th>
+						<th>Porciones</th>
+						<th>Descripción</th>
+						<th>Datos de cliente</th>
+						<th>Lugar de entrega</th>
+						<th>Pago</th>
+					</tr>
+				</thead>
+
+				<tr>
+					<td>001</td>
+					<td>05/11/2022</td>
+					<td>Chocolate</td>
+					<td>Fondant</td>
+					<td>Caramelo</td>
+					<td>N/A</td>
+					<td>40</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								Que la parte del Fondant tenga la decoración de de un superman y
+								diga feliz cumpleaños Nicolas.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Jeyson Alonso.</li>
+								<li>j.alon@gmail.com</li>
+								<li>3188708166</li>
+								<li>K35 # 72 - 28 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago01">Pendiente</label>
+						<input type="radio" name="pago01" id="pago01" />
+						<label for="pago01">Exitoso</label>
+						<input type="radio" name="pago01" id="pago01" />
+					</td>
+				</tr>
+				<tr>
+					<td>002</td>
+					<td>05/11/2022</td>
+					<td>Vainilla</td>
+					<td>Chantilly</td>
+					<td>Ganache</td>
+					<td>N/A</td>
+					<td>50</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								Pastel blanco con trozos de chocolate en la parte de arriba como
+								en la imagen adjunta, que diga en letra dorada feliz
+								aniversario.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Claudia Camargo.</li>
+								<li>clau-C@gmail.com</li>
+								<li>3153678904</li>
+								<li>CL 40 # 10 - 20 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago02">Pendiente</label>
+						<input type="radio" name="pago02" id="pago02" />
+						<label for="pago02">Exitoso</label>
+						<input type="radio" name="pago02" id="pago02" />
+					</td>
+				</tr>
+				<tr>
+					<td>003</td>
+					<td>06/11/2022</td>
+					<td>Tres Leches</td>
+					<td>Ganache</td>
+					<td>Frutas</td>
+					<td>Merengue</td>
+					<td>50</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								En la parte de arriba del pastel un corazón en fresas y duraznos
+								con trozos de Ganache, con el mensaje te amo Amor.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Jorge Torres.</li>
+								<li>jtorres98@Hotmail.com</li>
+								<li>310256789</li>
+								<li>K10 # 54b - 10 sur BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago03">Pendiente</label>
+						<input type="radio" name="pago03" id="pago03" />
+						<label for="pago03">Exitoso</label>
+						<input type="radio" name="pago03" id="pago03" />
+					</td>
+				</tr>
+				<tr>
+					<td>004</td>
+					<td>06/11/2022</td>
+					<td>Helado</td>
+					<td>Chantilly</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>50</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								El pastel lo quiero con dos sabores de helado uno de frutos
+								rojos y chocolate.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Johanna Mendez.</li>
+								<li>johanna_m66@gmail.com</li>
+								<li>3172815679</li>
+								<li>K35 # 79sur - 09 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago04">Pendiente</label>
+						<input type="radio" name="pago04" id="pago04" />
+						<label for="pago04">Exitoso</label>
+						<input type="radio" name="pago04" id="pago04" />
+					</td>
+				</tr>
+				<tr>
+					<td>005</td>
+					<td>07/11/2022</td>
+					<td>Limón</td>
+					<td>Fondant</td>
+					<td>Ganache</td>
+					<td>N/A</td>
+					<td>30</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>Favor decorar el pastel como la imagen adjunta, gracias.</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Carlos Marian.</li>
+								<li>marinito@hotmail.com</li>
+								<li>3058908166</li>
+								<li>AV 1 mayo # 2 - 10 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago05">Pendiente</label>
+						<input type="radio" name="pago05" id="pago05" />
+						<label for="pago05">Exitoso</label>
+						<input type="radio" name="pago05" id="pago05" />
+					</td>
+				</tr>
+				<tr>
+					<td>006</td>
+					<td>07/11/2022</td>
+					<td>Red Velvet</td>
+					<td>Frutas</td>
+					<td>Chantilly</td>
+					<td>Ganache</td>
+					<td>40</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								Una decoración clásica con frutas, y con el mensaje Feliz
+								cumpleaños Mamá.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Jose Vega.</li>
+								<li>j.vega@gmail.com</li>
+								<li>3002817654</li>
+								<li>C14 # 105n - 46 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago06">Pendiente</label>
+						<input type="radio" name="pago06" id="pago06" />
+						<label for="pago06">Exitoso</label>
+						<input type="radio" name="pago06" id="pago06" />
+					</td>
+				</tr>
+				<tr>
+					<td>007</td>
+					<td>08/11/2022</td>
+					<td>Chocolate</td>
+					<td>Ganache</td>
+					<td>Merengue</td>
+					<td>N/A</td>
+					<td>50</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								Favor realizar una decoración elegante, motivo reunido
+								empresarial aniversario 30 Colvatel.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Pedro Salamanca.</li>
+								<li>p-salamanca@colavatel.com</li>
+								<li>3002818120</li>
+								<li>Parque empresarial Colvatel</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago07">Pendiente</label>
+						<input type="radio" name="pago07" id="pago07" />
+						<label for="pago07">Exitoso</label>
+						<input type="radio" name="pago07" id="pago07" />
+					</td>
+				</tr>
+				<tr>
+					<td>008</td>
+					<td>08/11/2022</td>
+					<td>Tres Leches</td>
+					<td>Caramelo</td>
+					<td>Chantilly</td>
+					<td>Frutas</td>
+					<td>50</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								Se adjunta img de diseño que quiero con el caramelo. gracias.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Jenny Vega C.</li>
+								<li>Jenny-vc@gmail.com</li>
+								<li>3122678766</li>
+								<li>K3 # 10 - 50 Faca</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago08">Pendiente</label>
+						<input type="radio" name="pago08" id="pago08" />
+						<label for="pago08">Exitoso</label>
+						<input type="radio" name="pago08" id="pago08" />
+					</td>
+				</tr>
+				<tr>
+					<td>009</td>
+					<td>09/11/2022</td>
+					<td>Red Velvet</td>
+					<td>Ganache</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>40</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>
+								Hacer un pastel con estos sabores para celebrar un acenso, con
+								el mensaje, felicidades abogada de acero.
+							</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Yolanda Meza.</li>
+								<li>ymeza.ab@Abogabot.com</li>
+								<li>3222808060</li>
+								<li>AV esperanza # 30 - 28 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago09">Pendiente</label>
+						<input type="radio" name="pago09" id="pago09" />
+						<label for="pago09">Exitoso</label>
+						<input type="radio" name="pago09" id="pago09" />
+					</td>
+				</tr>
+				<tr>
+					<td>010</td>
+					<td>09/11/2022</td>
+					<td>Vainilla</td>
+					<td>Fondant</td>
+					<td>Merengue</td>
+					<td>N/A</td>
+					<td>30</td>
+					<td>
+						<details>
+							<summary>Detalles del pastel.</summary>
+							<p>Decorara con motivos de bebe niña para un baby shower.</p>
+						</details>
+					</td>
+					<td>
+						<details>
+							<summary>Datos de contacto.</summary>
+							<ul>
+								<li>Pilar Ubaque S.</li>
+								<li>pilarica65@gmail.com</li>
+								<li>3112337890</li>
+								<li>K42 # 76d - 45 BTA</li>
+							</ul>
+						</details>
+					</td>
+					<td>Direccion de contacto</td>
+					<td>
+						<label for="pago10">Pendiente</label>
+						<input type="radio" name="pago10" id="pago10" />
+						<label for="pago10">Exitoso</label>
+						<input type="radio" name="pago10" id="pago10" />
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section class="wrapper" id="secInventario">
+			<h2>Inventario</h2>
+			<table class="tablaInventario">
+				<thead>
+					<tr>
+						<th rowspan="2">Productos.</th>
+						<th colspan="12">
+							<label for="buscar">Buscar Producto:</label>
+							<input type="text" name="buscar" id="buscar" class="buscar" />
+							<input type="button" value="Buscar" class="boton" />
+						</th>
+					</tr>
+					<tr>
+						<th>Cantidad inicial</th>
+						<th>Uds</th>
+						<th>Lunes</th>
+						<th>Martes</th>
+						<th>Miércoles</th>
+						<th>Jueves</th>
+						<th>Viernes</th>
+						<th>Sábado</th>
+						<th>Domingo.</th>
+						<th>Gasto semanal</th>
+						<th>Cantidad en exigencia</th>
+						<th>Estado</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="13" class="tablaTitulosInve">
+							Favor reportar al administrador o a bodega si hay productos en mal
+							estado en el momento del uso. Gracias.
+						</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<th>Harina de trigo</th>
+						<td>1400</td>
+						<td>Lb.</td>
+						<td>100</td>
+						<td>110</td>
+						<td>90</td>
+						<td>100</td>
+						<td>150</td>
+						<td>200</td>
+						<td>200</td>
+						<td>950</td>
+						<td>450</td>
+						<td class="pocasExis">Pocas exigencias</td>
+					</tr>
+					<tr>
+						<th>Mantequilla</th>
+						<td>650</td>
+						<td>Lb.</td>
+						<td>50</td>
+						<td>55</td>
+						<td>45</td>
+						<td>50</td>
+						<td>75</td>
+						<td>100</td>
+						<td>100</td>
+						<td>475</td>
+						<td>175</td>
+						<td class="pocasExis">Pocas exigencias</td>
+					</tr>
+					<tr>
+						<th>Huevos</th>
+						<td>800</td>
+						<td>Ud.</td>
+						<td>80</td>
+						<td>90</td>
+						<td>80</td>
+						<td>100</td>
+						<td>100</td>
+						<td>150</td>
+						<td>150</td>
+						<td>770</td>
+						<td>30</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Leche</th>
+						<td>500</td>
+						<td>L.</td>
+						<td>40</td>
+						<td>30</td>
+						<td>50</td>
+						<td>40</td>
+						<td>90</td>
+						<td>120</td>
+						<td>110</td>
+						<td>480</td>
+						<td>20</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Crema de leche</th>
+						<td>500</td>
+						<td>mL.</td>
+						<td>20</td>
+						<td>20</td>
+						<td>25</td>
+						<td>30</td>
+						<td>40</td>
+						<td>100</td>
+						<td>100</td>
+						<td>335</td>
+						<td>165</td>
+						<td class="pocasExis">Pocas exigencias</td>
+					</tr>
+					<tr>
+						<th>Levadura</th>
+						<td>5000</td>
+						<td>g.</td>
+						<td>200</td>
+						<td>200</td>
+						<td>250</td>
+						<td>220</td>
+						<td>300</td>
+						<td>350</td>
+						<td>350</td>
+						<td>1870</td>
+						<td>3130</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Azúcar</th>
+						<td>1000</td>
+						<td>Lb.</td>
+						<td>40</td>
+						<td>30</td>
+						<td>40</td>
+						<td>50</td>
+						<td>60</td>
+						<td>80</td>
+						<td>80</td>
+						<td>380</td>
+						<td>620</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Sal fina</th>
+						<td>300</td>
+						<td>Lb.</td>
+						<td>5</td>
+						<td>8</td>
+						<td>5</td>
+						<td>7</td>
+						<td>10</td>
+						<td>10</td>
+						<td>11</td>
+						<td>56</td>
+						<td>244</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Extracto de vainilla</th>
+						<td>1000</td>
+						<td>mL.</td>
+						<td>20</td>
+						<td>20</td>
+						<td>10</td>
+						<td>20</td>
+						<td>30</td>
+						<td>20</td>
+						<td>30</td>
+						<td>150</td>
+						<td>850</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Extracto de coco</th>
+						<td>1000</td>
+						<td>mL.</td>
+						<td>-</td>
+						<td>10</td>
+						<td>-</td>
+						<td>5</td>
+						<td>11</td>
+						<td>12</td>
+						<td>5</td>
+						<td>43</td>
+						<td>957</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Chocolate</th>
+						<td>200</td>
+						<td>Lb.</td>
+						<td>5</td>
+						<td>10</td>
+						<td>6</td>
+						<td>5</td>
+						<td>10</td>
+						<td>20</td>
+						<td>20</td>
+						<td>76</td>
+						<td>124</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Colorante rojo</th>
+						<td>500</td>
+						<td>mL.</td>
+						<td>10</td>
+						<td>10</td>
+						<td>5</td>
+						<td>5</td>
+						<td>11</td>
+						<td>20</td>
+						<td>30</td>
+						<td>91</td>
+						<td>409</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Colorante amarillo</th>
+						<td>500</td>
+						<td>mL.</td>
+						<td>5</td>
+						<td>5</td>
+						<td>6</td>
+						<td>10</td>
+						<td>10</td>
+						<td>15</td>
+						<td>10</td>
+						<td>61</td>
+						<td>439</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Colorante azul</th>
+						<td>500</td>
+						<td>mL.</td>
+						<td>5</td>
+						<td>7</td>
+						<td>10</td>
+						<td>90</td>
+						<td>10</td>
+						<td>30</td>
+						<td>30</td>
+						<td>182</td>
+						<td>318</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Colorante negro</th>
+						<td>400</td>
+						<td>mL.</td>
+						<td>10</td>
+						<td>5</td>
+						<td>6</td>
+						<td>10</td>
+						<td>15</td>
+						<td>15</td>
+						<td>20</td>
+						<td>81</td>
+						<td>319</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Fondant base</th>
+						<td>150</td>
+						<td>Lb.</td>
+						<td>10</td>
+						<td>10</td>
+						<td>50</td>
+						<td>10</td>
+						<td>20</td>
+						<td>15</td>
+						<td>30</td>
+						<td>145</td>
+						<td>5</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Papel vegetal</th>
+						<td>300</td>
+						<td>Ud.</td>
+						<td>5</td>
+						<td>5</td>
+						<td>6</td>
+						<td>10</td>
+						<td>15</td>
+						<td>15</td>
+						<td>10</td>
+						<td>66</td>
+						<td>234</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Base para tortas</th>
+						<td>400</td>
+						<td>Ud.</td>
+						<td>20</td>
+						<td>20</td>
+						<td>30</td>
+						<td>50</td>
+						<td>50</td>
+						<td>70</td>
+						<td>70</td>
+						<td>240</td>
+						<td>160</td>
+						<td class="pocasExis">Pocas exigencias</td>
+					</tr>
+					<tr>
+						<th>Cajas</th>
+						<td>280</td>
+						<td>Ud.</td>
+						<td>20</td>
+						<td>20</td>
+						<td>30</td>
+						<td>50</td>
+						<td>50</td>
+						<td>70</td>
+						<td>70</td>
+						<td>270</td>
+						<td>10</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Limón</th>
+						<td>70</td>
+						<td>Ud.</td>
+						<td>5</td>
+						<td>5</td>
+						<td>10</td>
+						<td>6</td>
+						<td>12</td>
+						<td>15</td>
+						<td>15</td>
+						<td>68</td>
+						<td>2</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Fresa</th>
+						<td>20</td>
+						<td>Lb.</td>
+						<td>1</td>
+						<td>1</td>
+						<td>2</td>
+						<td>1</td>
+						<td>3</td>
+						<td>4</td>
+						<td>4</td>
+						<td>16</td>
+						<td>4</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Durazno</th>
+						<td>5000</td>
+						<td>g.</td>
+						<td>100</td>
+						<td>100</td>
+						<td>200</td>
+						<td>400</td>
+						<td>400</td>
+						<td>500</td>
+						<td>500</td>
+						<td>2200</td>
+						<td>2800</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Uvas</th>
+						<td>30</td>
+						<td>Lb.</td>
+						<td>1</td>
+						<td>2</td>
+						<td>1</td>
+						<td>5</td>
+						<td>6</td>
+						<td>7</td>
+						<td>8</td>
+						<td>30</td>
+						<td>0</td>
+						<td class="AgotaExis">Agotado</td>
+					</tr>
+					<tr>
+						<th>Cerezas</th>
+						<td>4000</td>
+						<td>g.</td>
+						<td>80</td>
+						<td>90</td>
+						<td>90</td>
+						<td>120</td>
+						<td>110</td>
+						<td>150</td>
+						<td>150</td>
+						<td>790</td>
+						<td>3210</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+					<tr>
+						<th>Frutos secos</th>
+						<td>100</td>
+						<td>Lb.</td>
+						<td>1</td>
+						<td>2</td>
+						<td>2</td>
+						<td>2</td>
+						<td>4</td>
+						<td>5</td>
+						<td>5</td>
+						<td>21</td>
+						<td>79</td>
+						<td class="enExis">En existencia</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<footer>
+			<div class="logo3">
+				<a href="#secInicio"
+					><img src="./assets/Imagen Logo3.svg" alt="Dulzura Espacial" />
+				</a>
+			</div>
+			<div class="misContacto">
+				<div class="fSub"><h3>Contáctenos.</h3></div>
+				<div>
+					<a href="http://" target="_self">
+						<i class="fa-solid fa-map-location-dot iconoMovil"></i> AV el dorado
+						N° 39 - 50
+					</a>
+				</div>
+				<div>
+					<a href="tel:+"
+						><i class="fa-solid fa-square-phone iconoMovil"></i> (1) 7105050 -
+						7205050</a
+					>
+				</div>
+				<div>
+					<a href="http://" target="_self"
+						><i class="fa-brands fa-square-whatsapp iconoMovil"></i> (+57)
+						3180005050</a
+					>
+				</div>
+				<div>
+					<a href="mailto:inf@dulzura.com"
+						><i class="fa-solid fa-square-envelope iconoMovil"></i>
+						inf@dulzura.com</a
+					>
+				</div>
+			</div>
+			<div class="redesSociales">
+				<div class="fSub"><h3>Síguenos.</h3></div>
+				<div>
+					<a href="http://" target="_self">
+						<img src="/assets/Facebook icono.png" alt="Facebook" />
+					</a>
+				</div>
+				<div>
+					<a href="http://" target="_self">
+						<img src="/assets/Instagram icono.png" alt="Instagram" />
+					</a>
+				</div>
+				<div>
+					<a href="http://" target="_self">
+						<img src="/assets/Youtube icono.png" alt="YouTube" />
+					</a>
+				</div>
+				<div>
+					<a href="http://" target="_self">
+						<img src="/assets/Twitter icono.png" alt="Twitter" />
+					</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>
+					<i class="fa-solid fa-copyright"></i> copyright - 2022. Jeyson Alonso
+					B. Todos los derechos reservados.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
