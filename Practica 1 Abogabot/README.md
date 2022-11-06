@@ -42,3 +42,12 @@
    
 <img alt="Publico objetivo." src="https://github.com/Jeysonab/Launch-X-Mision-FrontEnd/blob/466bbec094699eff9b58dc95d22c1810c60e8f02/Practica%201%20Abogabot/Publico%20Objetivo.png">
 
+### **4 - Wireframe UX (Diseño web responsivo). ✔️**
+  - Herramienta usada [Figma](https://www.figma.com/?fuid=)
+
+[UX Escritorio](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=0%3A1)
+[UX responsive](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=304%3A873)
+
+
+### **5 - UI (Diseño web responsivo).. ✔️**
+  - Herramienta usada [Figma](https://www.figma.com/?fuid=)
