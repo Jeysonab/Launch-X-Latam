@@ -1,10 +1,10 @@
 
 
-# Practicas 1 - Introduccion a FrontEnd
+# **Practicas 1 - Introduccion a FrontEnd**
 
-## ABOGABOT :robot:
+## **ABOGABOT :robot:**
 
-### 1 - Toma de requerimientos. ✔️
+### **1 - Toma de requerimientos. ✔️**
 
 **Cliente**
 
@@ -31,6 +31,12 @@
 **Diagrama de Flujo**
 
  <img alt="Diagrama de flujo de diseño Abogabot." src="https://github.com/Jeysonab/Launch-X-Mision-FrontEnd/blob/123b21874efee5487ff1c4872d9ffe289fb55772/Practica%201%20Abogabot/Diagrama%20de%20flujo%20Abogabot.png">
+
+### **2 - Buyer Persona. ✔️**
+ - [Hubspot]([url](https://www.hubspot.es/make-my-persona))
+
+ <img alt="Buyer Persona." src="https://github.com/Jeysonab/Launch-X-Mision-FrontEnd/blob/efe7b67afa867d05fd57fc8f6a8470dcea951e50/Practica%201%20Abogabot/Buyer%20Persona.png">
+
 
 
 
