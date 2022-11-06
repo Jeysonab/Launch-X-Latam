@@ -45,8 +45,8 @@
 ### **4 - Wireframe UX (Diseño web responsivo). ✔️**
   - Herramienta usada [Figma](https://www.figma.com/?fuid=)
 
-[UX Escritorio](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=0%3A1)
-[UX responsive](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=304%3A873)
+   - Diseño [UX Escritorio](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=0%3A1)
+   - Diseño [UX responsive](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=304%3A873)
 
 
 ### **5 - UI (Diseño web responsivo).. ✔️**
