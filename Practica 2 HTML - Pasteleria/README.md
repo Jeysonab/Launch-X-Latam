@@ -12,3 +12,6 @@ Practicas 2 - HTML
 ### **Interfaz Panadero. 👨‍🍳👩‍🍳**
 
   - [Pagina Pastelero](https://jeysonab.github.io/Launch-X-Mision-FrontEnd/Practica%202%20HTML%20-%20Pasteleria/index_pastelero.html)
+
+
+## Practica 2 Finalizada.
