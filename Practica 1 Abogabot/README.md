@@ -48,7 +48,7 @@
    - Diseño [UX Escritorio](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=0%3A1)
    - Diseño [UX responsive](https://www.figma.com/file/STgHyD0ZTa9PiFLbMhUxzD/Proyecto-Abogabot-UX?node-id=304%3A873)
 
-### **5 - UI (Diseño web responsivo).. ✔️**
+### **5 - UI (Diseño web responsivo). ✔️**
   - Herramienta usada [Figma](https://www.figma.com/?fuid=)
   
    - Diseño [UI Escritorio](https://www.figma.com/file/zb1GiD54QioEizumLuNPlK/Proyecto-Abogabot-UI?node-id=0%3A1)
