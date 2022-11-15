@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vaccination</title>
+		<link rel="shortcut icon" href="./assets/jeringa.png" />
+
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="logo">
+				<a href="#" target="_self">Vaccination</a>
+			</div>
+			<nav class="menu">
+				<a href="#" class="rAzul" target="_self">Database</a>
+				<a href="#" class="rAzul" target="_self">Education</a>
+				<a href="#" class="rAzul" target="_self">News</a>
+				<a href="#" class="rAzul" target="_self">Regulation</a>
+				<a href="#" class="aAzul" target="_self">Hoax Buster</a>
+			</nav>
+		</header>
+
+		<section class="seccion1">
+			<div class="contenedor1">
+				<div class="subtitulo1">
+					<h2>Fight Virus <br />With Vaccines</h2>
+				</div>
+				<div class="parrafo1">
+					<h3>
+						Let's stop this pandemic by killing the virus with a vaccine, don't
+						let yourself and your family get infected
+					</h3>
+				</div>
+				<div class="botonAmarillo">
+					<input
+						type="button"
+						name="buttonA1"
+						class="inputAmarillo1"
+						id="buttonA1" />
+					<label for="buttonA1">Best protection</label>
+
+					<input
+						type="button"
+						name="buttonA2"
+						class="inputAmarillo2"
+						id="buttonA2" />
+					<label for="buttonA2">Selected Vaccines</label>
+				</div>
+
+				<div class="botonAzul">
+					<input type="button" name="buttonB" class="inputAzul" id="buttonB" />
+					<label for="buttonB">Schedule your vaccinations</label>
+				</div>
+			</div>
+			<div class="imgEnfermera1">
+				<img src="./assets/Enfermera1.png" alt="Enfermera 1" />
+			</div>
+			<div class="imgLogosVacunas">
+				<div class="imgAstraeneca">
+					<img src="./assets/Astrazeneca_logo.png" alt="Logo AstraZeneca" />
+				</div>
+				<div class="imgSinovac">
+					<img src="./assets/Sinovac_logo.png" alt="Logo Sinovac" />
+				</div>
+				<div class="imgPfizer">
+					<img src="./assets/Pfizer_logo.png" alt="Logo Pfizer" />
+				</div>
+				<div class="imgModerna">
+					<img src="./assets/Moderna_logo.png" alt="Logo Moderna" />
+				</div>
+			</div>
+		</section>
+
+		<section class="ventanaModal" id="ventanaModal">
+			<div class="contenedorModal" id="contenedorModal">
+				<div class="localizacion">
+					<label for="location" class="labelLocaliza"
+						><div></div>
+						Location</label
+					>
+					<input
+						class="inputLocaliza"
+						type="text"
+						name="location"
+						id="location"
+						placeholder="Location City" />
+				</div>
+
+				<div class="fecha">
+					<label for="data" class="labelFecha"
+						><div></div>
+						Data</label
+					>
+					<input class="inputFecha" type="date" name="data" id="data" />
+				</div>
+
+				<div class="tipoVacuna">
+					<label for="tipoVacunas" class="labelVacuna"
+						><div></div>
+						Vaccine Type</label
+					>
+					<select class="selecVacuna" id="tipoVacunas" name="tipoVacunas">
+						<option value="">-</option>
+						<option value="Astrazeneca">Astrazeneca</option>
+						<option value="Sinovac">Sinovac</option>
+						<option value="Pfizer">Pfizer</option>
+						<option value="Moderna">Moderna</option>
+					</select>
+				</div>
+				<div class="botonSubmit">
+					<input
+						type="submit"
+						class="inputSubmit"
+						id="inputSubmit"
+						value="Submit" />
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion2">
+			<div class="contenedor2">
+				<div class="subtitulo2">
+					<h2>Why should I vaccine?</h2>
+				</div>
+				<div class="parrafo2">
+					<h3>
+						In order to avoid any doubts about getting the COVID-19<br />vaccine,
+						identify the following 4 benefits of COVID-19<br />vaccination :
+					</h3>
+				</div>
+				<div class="tarjetas">
+					<div class="tarjeta">
+						<div class="icono">
+							<img src="./assets/iconoFiltro.png" alt="icono" />
+						</div>
+						<div class="tituloTarjeta">
+							<h3>Minimize the spread of viruses</h3>
+						</div>
+						<div class="parrafoTarjeta">
+							<h4>
+								vaccine has been proven effective to prevent someone from
+								getting infected with Coronavirus
+							</h4>
+						</div>
+					</div>
+					<div class="tarjeta">
+						<div class="icono">
+							<img src="./assets/iconoEscudo.png" alt="icono" />
+						</div>
+						<div class="tituloTarjeta"><h3>Forming antibodies</h3></div>
+						<div class="parrafoTarjeta">
+							<h4>
+								COVID-19 vaccine proven to help shape antibody response for
+								immune system
+							</h4>
+						</div>
+					</div>
+					<div class="tarjeta">
+						<div class="icono">
+							<img src="./assets/iconoUsuario.png" alt="icono" />
+						</div>
+						<div class="tituloTarjeta"><h3>Protecting people nearby</h3></div>
+						<div class="parrafoTarjeta">
+							<h4>
+								The benefits of COVID-19 vaccination are the vaccine that we get
+								can also help protect people around us
+							</h4>
+						</div>
+					</div>
+					<div class="tarjeta">
+						<div class="icono">
+							<img src="./assets/iconoActividad.png" alt="icono" />
+						</div>
+						<div class="tituloTarjeta"><h3>Creating group immunity</h3></div>
+						<div class="parrafoTarjeta">
+							<h4>
+								COVID-19 vaccination is also beneficial for creating group
+								immunity or herd immunity.
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion3">
+			<div class="imgEnfermera2">
+				<img src="./assets/Enfermera2.png" alt="Enfermera 2" />
+			</div>
+			<div class="contenedor3">
+				<div class="subtitulo3">
+					<h2>Preparations Before Vaccine</h2>
+				</div>
+				<div class="parrafo3">
+					<h3>
+						the success of vaccines is strongly influenced by the<br />strength
+						of the body's immune system. Therefore, there are<br />several
+						things that can be tried to make the COVID-19<br />vaccine work :
+					</h3>
+				</div>
+			</div>
+			<div class="contenedorDetalles">
+				<div class="detalle">
+					<details>
+						<summary>
+							<span class="icono1"></span>Avoid Alcoholic beverages
+						</summary>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+							omnis libero inventore! Mollitia quam laudantium sunt magnam
+							voluptates quos quis provident?
+						</p>
+					</details>
+				</div>
+				<div class="detalle">
+					<details open>
+						<summary><span class="icono2"></span>Avoid stress</summary>
+						<p>
+							Stress has a profound effect on immune work. Moreover, prolonged
+							stress can increase cortisol production and oxidative stress in
+							the body.
+						</p>
+					</details>
+				</div>
+				<div class="detalle">
+					<details>
+						<summary><span class="icono3"></span>Eat healthy food</summary>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+							omnis libero inventore! Mollitia quam laudantium sunt magnam
+							voluptates quos quis provident?
+						</p>
+					</details>
+				</div>
+				<div class="detalle">
+					<details>
+						<summary><span class="icono4"></span>Get enough sleep</summary>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+							omnis libero inventore! Mollitia quam laudantium sunt magnam
+							voluptates quos quis provident?
+						</p>
+					</details>
+				</div>
+				<div class="detalle">
+					<details>
+						<summary>
+							<span class="icono5"></span>Exercise or physical activity
+						</summary>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+							omnis libero inventore! Mollitia quam laudantium sunt magnam
+							voluptates quos quis provident?
+						</p>
+					</details>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion4">
+			<div class="contenedor4">
+				<div class="subtitulo4"><h2>Emergency Contact</h2></div>
+				<div class="parrafo4">
+					<h3>
+						Contact one of the contacts below if you or your family feel<br />unwell
+						and have similar symptoms such as COVID-19, make<br />sure you also
+						take care of yourself before reporting to us :
+					</h3>
+				</div>
+			</div>
+			<div class="imgEnfermero">
+				<img src="./assets/Enfermero.png" alt="Enfermero" />
+			</div>
+			<div class="miniTarjetas">
+				<div class="miniTarjeta">
+					<div class="icono">
+						<img src="./assets/iconoLlamar.png" alt="Icono Llamar" />
+					</div>
+					<div>
+						<div class="tituloMiniTarjeta"><h3>Call</h3></div>
+						<div class="parrafoMiniTarjeta"><h4>021.123.145.14</h4></div>
+					</div>
+					<div class="botonTarjeta"><button>Call Now</button></div>
+				</div>
+				<div class="miniTarjeta">
+					<div class="icono">
+						<img src="./assets/iconoChat.png" alt="Icono Chat" />
+					</div>
+					<div>
+						<div class="tituloMiniTarjeta"><h3>Chat</h3></div>
+						<div class="parrafoMiniTarjeta"><h4>021.123.145.14</h4></div>
+					</div>
+					<div class="botonTarjeta"><button>Chat Now</button></div>
+				</div>
+				<div class="miniTarjeta">
+					<div class="icono">
+						<img src="./assets/iconoVideo.png" alt="Icono Video" />
+					</div>
+					<div>
+						<div class="tituloMiniTarjeta"><h3>Video Call</h3></div>
+						<div class="parrafoMiniTarjeta"><h4>021.123.145.14</h4></div>
+					</div>
+					<div class="botonTarjeta"><button>Video Call Now</button></div>
+				</div>
+				<div class="miniTarjeta">
+					<div class="icono">
+						<img src="./assets/iconoMensaje.png" alt="Icono Mensaje" />
+					</div>
+					<div>
+						<div class="tituloMiniTarjeta"><h3>Message</h3></div>
+						<div class="parrafoMiniTarjeta"><h4>021.123.145.14</h4></div>
+					</div>
+					<div class="botonTarjeta"><button>Message Now</button></div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="seccionFooter">
+				<div class="logoFooter">
+					<a href="#" target="_self">Vaccination</a>
+					<div class="parrafoFooter">
+						<h3>
+							Our goal is to help the<br />world free from the<br />ongoing
+							pandemic
+						</h3>
+					</div>
+				</div>
+				<div class="contenedorFooter">
+					<div class="sobreNosotros">
+						<h3>About</h3>
+						<a href="#" target="_self">About Us</a>
+						<a href="#" target="_self">Features</a>
+						<a href="#" target="_self">News & Blog</a>
+					</div>
+					<div class="compañia">
+						<h3>Company</h3>
+						<a href="#" target="_self">How We Work?</a>
+						<a href="#" target="_self">Capital</a>
+						<a href="#" target="_self">Security</a>
+					</div>
+					<div class="soporte">
+						<h3>Support</h3>
+						<a href="#" target="_self">FAQs</a>
+						<a href="#" target="_self">Support Center</a>
+						<a href="#" target="_self">Contact Us</a>
+					</div>
+				</div>
+				<div class="terminos">
+					<h4>
+						@2021 Vacinnation. All rights reserved - Adaptado por Jeyson Alonso
+						en Launch-X
+					</h4>
+				</div>
+				<div class="condiciones">
+					<h4>Terms & Agreements Privacy Policy</h4>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/modal.js"></script>
+	</body>
+</html>
