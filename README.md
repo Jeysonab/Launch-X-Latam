@@ -1,5 +1,5 @@
-# Launch-X-Mision-FrontEnd
-## Practicas del corso de Launch X Latam.
+# Practicas del curso de Launch X Latam.
+## Launch-X-Mision-FrontEnd
 
 ### Práctica 1 Abogabot - Introducción a Frontend 
 
