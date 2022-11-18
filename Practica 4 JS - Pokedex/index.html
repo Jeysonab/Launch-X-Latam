@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pokédex Launch-X</title>
+		<link rel="shortcut icon" href="./assets/pokemon.ico" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<header>
+			<div><h1>Pokédex</h1></div>
+			<h2></h2>
+				
+		</header>
+		<section class="seccionPokedex">
+			<div class="contenedorPokemonIzq">
+				<div class="contenedorPantalla">
+					<div class="">
+						<h3 id="numeroPokemon"></h3>
+					</div>
+					<div class="imgPokemon">
+						<img
+							src="./assets/loadingPokedex.gif"
+							alt="img_Pokemon"
+							id="imgPokemon" />
+					</div>
+					<div class="">
+						<h3 id="nombrePokemon"></h3>
+					</div>
+				</div>
+				<div class="contenedorTipo" id="tipoPokemon"></div>
+					
+				</div>
+			</div>
+			<div class="contenedorPokemonDer">
+				<div class="contenedorEstadisticas">
+					<div class="estadisticasPokemon" id="estadisticasPokemon"></div>
+				</div>
+				<div class="contenedorMovimientos">
+					<div class="movimientoPokemon" id="movimientoPokemon"></div>
+				</div>
+				<div class="contenedorMedidas">
+					<div class="medidasPokemon" id="medidasPokemon"></div>
+				</div>
+				<div class="buscarPokemon">
+					<input
+						type="text"
+						placeholder="Pokemon..."
+						id="inputPokemon"
+						name="inputPokemon" />
+					<button type="submit" id="botonPokemon">Analizar</button>
+				</div>
+			</div>
+		</section>
+	</body>
+	<footer>
+		<div> <h4> Pokédex - Practica de JavaScript para la Misión Frontend por Jeyson Alonso B. <a href="https://github.com/Jeysonab"><img src="./assets/github-logo.png" alt=""> </a></h4>
+
+		</div>
+	</footer>
+	<script src="./js/pokedex.js"></script>
+</html>
