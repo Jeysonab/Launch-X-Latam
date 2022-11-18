@@ -12,3 +12,10 @@
 ### Práctica 3 Vaccination - CSS 
 
  - [Practica Vaccination](https://github.com/Jeysonab/Launch-X-Mision-FrontEnd/blob/fe2fd37874a5e8a840eb659da73fa39b068ea405/Practica%203%20CSS%20-%20Vaccination/README.md)
+
+### Práctica 4 Pokédex - JS 
+
+ - [Practica Pokedex](https://github.com/Jeysonab/Launch-X-Mision-FrontEnd/blob/994c354687344e8ddf7737a2c1dd3549f3465c48/Practica%204%20JS%20-%20Pokedex/README.md)
+
+
+Mision-FrontEnd Finalizada.
